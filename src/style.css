@@ -1,14 +1,37 @@
 h1 {
-  color: white;
+  color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 96px;
 }
 
 p {
-  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
-i {
+.body {
+  text-align: center;
+  background: #f9f7fe;
+  padding: 160px 20px;
+}
+.body p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.body h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
