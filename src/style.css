@@ -1,13 +1,22 @@
+body {
+  font-family: "poppins", sans-serif;
+}
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .body {
   text-align: center;
@@ -24,9 +33,10 @@ p {
 .body h2 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
+
 .btn-branding {
   background: #6c63ff;
   border-radius: 4px;
@@ -34,4 +44,36 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: rgb(160, 15, 15);
+  border: 1px solid rgb(36, 2, 2);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.desc {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .body {
+    padding: 80px 20px;
+  }
+
+  .desc {
+    padding: 0;
+    text-align: center;
+  }
 }
