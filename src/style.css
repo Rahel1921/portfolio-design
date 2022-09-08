@@ -21,11 +21,14 @@ h1 {
 }
 h2 {
   font-size: 64px;
+  font-weight: bold;
 }
 h3 {
+  font-weight: bold;
   font-size: 24px;
   opacity: 0.7;
   color: #463fc2;
+  line-height: 1.5;
 }
 
 .navigation-links {
@@ -66,13 +69,26 @@ h3 {
   background: #6c63ff;
   cursor: pointer;
 }
+.work-container {
+  padding: 160px 20px;
+}
+
+.work-content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.work-content h2 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 16px;
 }
-.about-paragraphs {
+.about-paragraphs .work {
   margin: 30px 0;
 }
 
@@ -119,9 +135,28 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.about {
+  padding: 160px 20px;
+}
 
-.desc {
-  padding: 80px 60px;
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.about-section p {
+  font-family: "Poppins", sans-serif;
+}
+.about-section {
+  margin: 30px;
+}
+
+img {
+  max-height: 70%;
+  border-radius: 10px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -131,6 +166,10 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+  .about {
+    text-align: center;
+    padding: 30px;
   }
 
   .body {
