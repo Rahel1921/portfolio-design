@@ -30,6 +30,10 @@ h3 {
   color: #463fc2;
   line-height: 1.5;
 }
+h4 {
+  color: rgb(63, 8, 8);
+  margin-top: 10px;
+}
 
 .navigation-links {
   display: flex;
@@ -43,6 +47,32 @@ h3 {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #7c52ef;
 }
 
 .contact-link {
@@ -97,7 +127,7 @@ p {
 }
 .body {
   text-align: center;
-  background: #f9f7fe;
+  background: #cebff5;
   padding: 160px 20px;
 }
 .body p {
